@@ -26,7 +26,7 @@ class BankAccount{
 
 
     void deposit(double amount){
-        if(amount!=0){
+        if(amount>0){
             bal+=amount;
             prevTrans=amount;
         }
